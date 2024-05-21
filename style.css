@@ -23,13 +23,14 @@ body {
 .logo {
     font-size: 25px;
     font-weight: 600;
+    margin-left: 10px;
 }
 
 .nav-links {
     position: absolute;
     display: block;
     margin-top: -10px;
-    margin-left: 600px;
+    margin-left: 650px;
     padding: 20px;
     background-color: rgba(24, 24, 24, 0.200);
     border-radius: 10px;
@@ -72,6 +73,7 @@ li {
 .content {
     position: absolute;
     top: 150px;
+    margin-left: 10px;
 
 }
 
