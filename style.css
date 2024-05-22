@@ -151,11 +151,38 @@ h6,p {
     margin-top: 20px;
 }
 
-@media only screen and (max-width:769px){
-    .logo{
-       text-align: center;
+@media only screen and (max-width: 768px) {
+    
+    .cards {
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
     }
 
-}
+    .cards div {
+      margin: 20px;
+    }
+    
+    .card1 {
+      margin-bottom: 20px;
+    }
+    
+    .card2 {
+      border-right: none;
+      border-left: none;
+    }
+    
+    .card3 {
+      margin-top: 20px;
+    }
+    
+    .logo {
+        text-align: center;
+    }
 
- 
+    .nav-links{
+        display: none;
+    }
+
+
+  }

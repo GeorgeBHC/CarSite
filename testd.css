@@ -18,7 +18,7 @@ body {
 }
 
 .contact-box {
-    background-color: white;
+    background-color: rgb(212, 212, 212);
     display: flex;
     border-radius: 10px;
 
@@ -34,7 +34,7 @@ body {
 .contact-right {
     flex-basis: 40%;
     padding: 40px;
-    background-color: #1c00b5;
+    background-color: #3a3558;
     color: white;
     
 }
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .contact-left h3{ 
-    color: #1c00b5;
+    color: black;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -139,3 +139,6 @@ tr td {
     padding-top: 20px;
 }
 
+input, textarea{
+    background-color: transparent;
+}
