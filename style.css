@@ -24,17 +24,19 @@ body {
     font-size: 25px;
     font-weight: 600;
     margin-left: 10px;
+
 }
 
 .nav-links {
     position: absolute;
     display: block;
     margin-top: -10px;
-    margin-left: 650px;
+    margin-left: 750px;
     padding: 20px;
     background-color: rgba(24, 24, 24, 0.200);
     border-radius: 10px;
     backdrop-filter: blur(20px);
+  
 }
 
 a{
@@ -79,6 +81,7 @@ li {
 
 .content h5 {
     font-size: 30px;
+    margin-left: 10px;
 }
 
 
