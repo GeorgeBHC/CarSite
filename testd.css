@@ -90,7 +90,7 @@ label{
     color: black;
 }
 
-button{
+.btn{
     background: #1c00b5;
     width: 100px;
     border: none;
@@ -141,4 +141,17 @@ tr td {
 
 input, textarea{
     background-color: transparent;
+}
+
+@media only screen and (max-width:769px){
+    .container{
+        text-align:center;
+            }
+
+    .contact-box{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    
 }
